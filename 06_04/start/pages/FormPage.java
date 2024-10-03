@@ -16,7 +16,7 @@ public class FormPage {
 
         driver.findElement(By.cssSelector("option[value='1']")).click();
 
-        driver.findElement(By.id("datepicker")).sendKeys("05/28/2019");
+        driver.findElement(By.id("datepicker")).sendKeys("05/28/2022");
         driver.findElement(By.id("datepicker")).sendKeys(Keys.RETURN);
 
         driver.findElement(By.cssSelector(".btn.btn-lg.btn-primary")).click();
